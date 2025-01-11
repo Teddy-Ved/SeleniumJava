@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-04T20:53:33 EST" name="Suite" finished-at="2025-01-04T20:54:14 EST" duration-ms="41103">
+    <groups>
+    </groups>
+    <test started-at="2025-01-04T20:53:33 EST" name="Test" finished-at="2025-01-04T20:54:14 EST" duration-ms="41103">
+      <class name="WebAutomation.web.TC01_SubmitOrderTest">
+        <test-method is-config="true" signature="Initiatedriver()[pri:0, instance:WebAutomation.web.TC01_SubmitOrderTest@5c33f1a9]" started-at="2025-01-04T20:53:33 EST" name="Initiatedriver" finished-at="2025-01-04T20:53:55 EST" duration-ms="22136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiatedriver -->
+        <test-method signature="launchTestpage(java.util.Map)[pri:0, instance:WebAutomation.web.TC01_SubmitOrderTest@5c33f1a9]" started-at="2025-01-04T20:53:58 EST" name="launchTestpage" data-provider="getdata" finished-at="2025-01-04T20:54:11 EST" duration-ms="13375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testandlearn@gmail.com, Password=Testlearn12#, Product=QWERTY, Country=India}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTestpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:WebAutomation.web.TC01_SubmitOrderTest@5c33f1a9]" started-at="2025-01-04T20:54:12 EST" name="teardown" finished-at="2025-01-04T20:54:14 EST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WebAutomation.web.TC01_SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

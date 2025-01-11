@@ -1,0 +1,17 @@
+{
+"TC01_SubmitOrderTest":
+{
+    "UserName":"testandlearn@gmail.com",
+    "Password":"Testlearn12#",
+    "Product":"QWERTY",
+    "Country":"India"
+},
+"TC02_SubmitOrderTest":
+{
+    "UserName":"testandlearn@gmail.com",
+    "Password":"Testlearn12#",
+    "Product":"ADIDAS ORIGINAL",
+    "Country":"India"
+}
+
+}
