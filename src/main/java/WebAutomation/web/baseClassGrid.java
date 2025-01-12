@@ -21,10 +21,8 @@ public class baseClassGrid {
 	@BeforeTest()
 	public void setup(String browserName)
 	{
-		String username = "kishmath_UnBArd";
-		System.out.println(username);
-		String accessKey = "HTeMuXqxwVVppD2cDPFP";
-		System.out.println(accessKey);
+		String username = System.getenv("BROWSERSTACK_USERNAME");
+		String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 		
 		if(browserName.equals("Chrome"))
 		{
